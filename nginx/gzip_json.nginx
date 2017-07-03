@@ -1,0 +1,8 @@
+# http://nginx.org/en/docs/http/ngx_http_gzip_module.html
+
+http {
+  gzip on;
+  gzip_http_version 1;
+  gzip_comp_level 9;
+  gzip_types text/html application/json;
+}
